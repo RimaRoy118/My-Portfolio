@@ -1,0 +1,157 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+main
+{
+    min-height: 100vh;
+}
+
+nav
+{
+    width: 100%;
+    background-color: #1f242d;
+    padding: 1rem 1.2rem;
+    z-index: 10;
+}
+
+.bound
+{
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+.mainNav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+.logo>a
+{
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.links
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.links>a
+{
+    color: #fff;
+    transition: .3s;
+}
+
+.links>a:hover
+{
+    color: #0ef;
+    text-decoration: underline;
+}
+
+.active
+{
+    color: #0ef !important;
+}
+
+.sidebar
+{
+    display: none;
+}
+
+.sidebar>i
+{
+    color: #fff;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.firstSec
+{
+    background-color: #1f242d;
+    min-height: 450px;
+    padding: 0 1.2rem;
+}
+
+.myDetails
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.social-links
+{
+    margin: 1rem 0;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: .5rem;
+}
+
+.social-links>a>i
+{
+    color: #0ef;
+    border: 1px solid #0ef;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .3s;
+}
+
+.social-links>a>i:hover
+{
+    background-color: #0ef;
+    color: #1f242d;
+    box-shadow: 0 0 5px 0 #0ef;
+}
+
+.button
+{
+    background-color: #0ef;
+    color: #1f242d;
+    font-weight: 500;
+    padding: .5rem 1.2rem;
+    border-radius: 50px;
+    margin-top: 6px;
+    display: inline-block;
+    transition: .3s;
+}
+
+.button:hover
+{
+    box-shadow: 0 0 10px 0 #0ef;
+}
+
+
+.img img 
+{
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #0ef;
+    box-shadow: 0 0 25px rgba(0, 238, 255, 0.6);
+}

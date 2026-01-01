@@ -1,0 +1,99 @@
+@media screen and (max-width: 991px) 
+{
+    .myDetails
+    {
+        flex-direction: column-reverse;
+        padding: 2.5rem 0;
+    }
+
+    .text
+    {
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    .text>p
+    {
+        margin: 0 auto;
+    }
+
+    .social-links
+    {
+        justify-content: center;
+    }
+    
+}
+
+@media screen and (max-width: 770px) 
+{
+    .links
+    {
+        display: flex;
+        position: absolute;
+        top: 71px;
+        left: 0;
+        flex-direction: column;
+        background-color: #1f242d;
+        width: 100%;
+        gap: 1.3rem;
+        height: 0px;
+        transition: .3s;
+        overflow: hidden;
+    }
+
+    .visible
+    {
+        height: 250px;
+    }
+
+    .sidebar
+    {
+        display: block;
+    }
+
+}
+
+
+@media (max-width: 450px) 
+{
+    html
+    {
+        font-size: 14px;
+    }
+
+     .links
+    {
+        top: 61px;
+    }
+
+    .visible
+    {
+        height: 226px;
+    }
+
+    .img img 
+    {
+        width: 290px;
+        height: 290px;
+    }
+
+    .text>p
+    {
+        width: 100% !important;
+    }
+
+    .text>h2
+    {
+        font-size: 1.3rem!important;
+    }
+
+}
+
+
+@media (max-width: 320px) 
+{
+    .img img 
+    {
+        width: 100%;
+    }
+}
