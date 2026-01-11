@@ -12,6 +12,8 @@ menubar.addEventListener("click",()=>
 Array.from(links.children).forEach(link => {
     link.addEventListener("click", () => {
         links.classList.remove("visible");
+        menubar.classList.remove("fa-xmark");
+        menubar.classList.add("fa-bars");
     });
 });
 
