@@ -57,6 +57,34 @@
         display: block;
     }
 
+    .timeline::after
+    {
+        left: 0;
+    }
+
+    .right-container
+    {
+        left: 0%;
+    }
+
+    .container
+    {
+        width: 100%;
+    }
+
+    .left-container>.box, .right-container>.box
+    {
+        text-align: left;
+    }
+
+    .left-container>.circle
+    {
+        left: -14px;
+    }
+    .timeline
+    {
+        margin-left: 1rem;
+    }
 }
 
 
@@ -94,7 +122,6 @@
     }
 
 }
-
 
 @media (max-width: 320px) 
 {
