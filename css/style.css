@@ -101,7 +101,7 @@ a
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 4rem;
+    padding-top: 3.5rem;
 }
 
 .social-links
@@ -354,4 +354,5 @@ a
     border: 1px solid #0ef;
     box-shadow: 0 0 10px 0 #0ef;
     cursor: pointer;
+    transform: translateY(-5px);
 }
